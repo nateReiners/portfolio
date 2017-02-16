@@ -1459,7 +1459,7 @@
 	}
 
 		a:hover {
-			filter: brightness(1.5);
+			filter: brightness(1);
 		}
 		a:hover > h5 {
 			visibility: visible;
@@ -2039,17 +2039,17 @@
 				}
 
 			ul.icons.major {
-				padding: 1em 0;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
 			}
 
 				ul.icons.major li {
-					padding-right: 3.5em;
 				}
 
 					@media screen and (max-width: 736px) {
 
 						ul.icons.major li {
-							padding: 0 1em !important;
 						}
 
 					}
@@ -2652,6 +2652,7 @@
 		.wrapper.style1 {
 			background-color: #0f1021;
 			color: #c7ebe8;
+			padding: 30px;
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -2739,7 +2740,7 @@
 			}
 
 			.wrapper.style1 .icon.major {
-				border-color: rgba(0, 0, 0, 0.125);
+				border-color: white;
 			}
 
 			.wrapper.style1 ul.alt li {
@@ -3823,7 +3824,7 @@
 		background-color: #1d242a;
 	}
 
-	img {
+	.headshot {
 		border-radius: 100px;
 		margin-bottom: 20px;
 	}
@@ -3838,7 +3839,35 @@
 	.elevator-pitch {
 		max-width: 800px;
 	}
+	p.elevator-pitch {
+		padding-bottom: 10px;
+	}
 
-.icon.fa-linkedin.major.style1 {
-	text-transform: none !important;
+.toglink-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+a.toglink-screenshot {
+	max-height: 300px;
+	max-width: 300px;
+}
+
+.toglink-logo {
+	margin-bottom: 15px;
+	height: 24px;
+	width: 160px;
+	border-radius: 0px;
+}
+
+.impulse-logo {
+	font-family: 'Ruslan Display', cursive;
+	font-size: 36px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: -5px;
+}
+.comstorm-logo {
+	padding-bottom: 15px;
 }
