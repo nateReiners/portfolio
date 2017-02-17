@@ -3938,3 +3938,7 @@ i {
 .spacer {
 	height: 40px;
 }
+
+.back-to-top-link {
+	list-style: none;
+}
