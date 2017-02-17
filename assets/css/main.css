@@ -2539,6 +2539,7 @@
 			background-color: rgba(0, 0, 0, 0.075);
 		}
 
+
 		.spotlight:nth-child(2) {
 			background-color: rgba(0, 0, 0, 0.15);
 		}
@@ -2808,9 +2809,30 @@
 			background-color: #2e3842;
 		}
 
+		.projects-header {
+			font-size: 20px;
+			text-align: center;
+			display: block;
+			padding: 5px;
+			margin-bottom: 0;
+			border-top: 2px solid white;
+			border-bottom: 2px solid white;
+			background: black;
+		}
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #0f1021;
 			color: #d3d4e4;
+		}
+
+		.skills-header {
+			font-size: 20px;
+			text-align: center;
+			display: block;
+			background: black;
+			padding: 5px;
+			margin-bottom: 0;
+			border-top: 2px solid white;
+			border-bottom: 2px solid white;
 		}
 
 			.wrapper.style3 strong, .wrapper.style3 b {
@@ -3846,12 +3868,11 @@
 .toglink-div {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
 a.toglink-screenshot {
-	max-height: 300px;
-	max-width: 300px;
 }
 
 .toglink-logo {
@@ -3863,6 +3884,7 @@ a.toglink-screenshot {
 
 .impulse-logo {
 	font-family: 'Ruslan Display', cursive;
+	color: lightgray;
 	font-size: 36px;
 	padding: 0;
 	margin: 0;
@@ -3870,4 +3892,49 @@ a.toglink-screenshot {
 }
 .comstorm-logo {
 	padding-bottom: 15px;
+}
+
+.play-store-link {
+	text-decoration: underline;
+	padding-bottom: 20px;
+}
+
+.features {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+i {
+	font-size: 80px;
+	padding: 30px;
+}
+
+.toglink-link {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.impulse-link {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.comstorm-link {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.spacer {
+	height: 40px;
 }
